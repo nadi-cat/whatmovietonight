@@ -59,26 +59,25 @@ p{
 
 }
 
-.movies{
-    font-size: 2em; 
-    display: block;  
-}
 
 #myMovie1{
-    height:15px;
+    height:20px;
     width: 250px;
     font-size:15pt;
+    margin-bottom: 8px;
+    margin-top: 8px;
     
     
 }
 #myMovie2{
-    height:15px;
+    height:20px;
     width: 250px;
     font-size:15pt;
+    margin-bottom: 8px;
     
 }
 #myMovie3{
-    height:15px;
+    height:20px;
     width: 250px;
     font-size:15pt;
     margin-bottom: 15px;
