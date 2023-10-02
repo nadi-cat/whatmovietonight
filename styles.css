@@ -1,0 +1,97 @@
+html{
+    background-color: #071952;
+    background-image: linear-gradient(to right,#00004D , #e41f1f);
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 10px;
+    
+    
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: .3fr 1fr 1fr;
+}
+
+
+.top{
+    grid-area:1 / 1 / 1 / 2 ;
+}
+
+.middle{
+    grid-area: 2 /  1 /  2 / 3;
+    color: #fc2e2e;
+    
+}
+.popcorn{
+    
+    grid-area: 1 /  2 / span 2 / span 2;
+    
+    
+    
+    
+}
+
+h1{
+    color: white;
+    font-size: 4.5em;
+    text-align: left;
+    padding-left: 10px;  
+}
+
+
+h2{
+    color:#000000;
+    text-shadow: #ffffff 1px 0 12px; 
+    text-align: center;
+    width: 50%;
+    text-align: left;
+    margin: auto; 
+    font-size: 2em;
+}
+p{
+    font-size: 5em; 
+    text-align: center;
+
+}
+
+.movies{
+    font-size: 2em; 
+    display: block;  
+}
+
+#myMovie1{
+    height:20px;
+    width: 250px;
+    font-size:15pt;
+    
+    
+}
+#myMovie2{
+    height:20px;
+    width: 250px;
+    font-size:15pt;
+    
+}
+#myMovie3{
+    height:20px;
+    width: 250px;
+    font-size:15pt;
+    margin-bottom: 20px;
+    
+}
+.btn{
+    background: #e41f1f;
+    background-image: linear-gradient(to bottom, #e41f1f, #4f0101);
+    border-radius: 25px;
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
